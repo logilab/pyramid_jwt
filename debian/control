@@ -1,0 +1,31 @@
+Source: pyramid-jwt
+Section: python
+Priority: optional
+Maintainer: Denis Laxalde <denis.laxalde@logilab.fr>
+Build-Depends: debhelper (>= 9), dh-python,
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools,
+Standards-Version: 4.2.0
+Homepage: https://github.com/wichert/pyramid_jwt
+
+Package: python-pyramid-jwt
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+Recommends: ${python:Recommends}
+Suggests: ${python:Suggests}
+Description: JWT authentication policy for Pyramid - Python 2.X
+ pyramid_jwt implements an authentication policy for Pyramid that using JSON
+ Web Tokens, a standard (RFC 7519 https://tools.ietf.org/html/rfc7519) often
+ used to secure backens APIs.
+
+Package: python3-pyramid-jwt
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: JWT authentication policy for Pyramid
+ pyramid_jwt implements an authentication policy for Pyramid that using JSON
+ Web Tokens, a standard (RFC 7519 https://tools.ietf.org/html/rfc7519) often
+ used to secure backens APIs.

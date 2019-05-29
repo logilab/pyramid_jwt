@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pyramid_jwt
+Upstream-Contact: Wichert Akkerman <wichert@wiggy.net>
+Source: https://github.com/wichert/pyramid_jwt
+
+Files: *
+Copyright: Wichert Akkerman <wichert@wiggy.net>
+License: BSD
+
+Files: debian/*
+Copyright: 2019 © Denis Laxalde <denis.laxalde@logilab.fr>
+License: BSD
+
+License: BSD

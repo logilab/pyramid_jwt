@@ -1,0 +1,4 @@
+# try also https://pypi.debian.net/pyramid_jwt/watch
+version=3
+opts=uversionmangle=s/(rc|a|b|c)/~$1/ \
+https://pypi.debian.net/pyramid_jwt/pyramid_jwt-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
